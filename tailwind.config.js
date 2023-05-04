@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       maxWidth: {
         'container': '1200px',
+      },
+      fontFamily: {
+        fontBwfc: ['Manrope', 'sans-serif']
       }
     },
   },
