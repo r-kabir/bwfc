@@ -52,13 +52,13 @@ const Navbar = () => {
             </div>
             <div className='w-2/5 flex justify-end gap-x-2.5'>
                 {navinfo.buttonOne.visibility &&
-                    <ButtonBase><a href='#'>{navinfo.buttonOne.text}</a></ButtonBase>
+                    <ButtonBase><a href={navinfo.buttonOne.link}>{navinfo.buttonOne.text}</a></ButtonBase>
                 }
                 {navinfo.buttonTwo.visibility &&
-                    <ButtonMain><a href='#'>{navinfo.buttonTwo.text}</a></ButtonMain>
+                    <ButtonMain><a href={navinfo.buttonTwo.link}>{navinfo.buttonTwo.text}</a></ButtonMain>
                 }
                 {navinfo.buttonThree.visibility &&
-                    <ButtonMain><a href='#'>{navinfo.buttonThree.text}</a></ButtonMain>
+                    <ButtonMain><a href={navinfo.buttonThree.link}>{navinfo.buttonThree.text}</a></ButtonMain>
                 }
             </div>
         </div>

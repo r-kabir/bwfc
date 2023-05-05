@@ -23,9 +23,13 @@ const Banner = () => {
   }
 
   return (
-    <section className='bg-lime-200 h-[600px]'>
+    <section className='bg-center bg-no-repeat h-96' style={{backgroundImage: `url(${bannerinfo.bannerbgshape})`  }}>
       
       <Container>
+        <div className='flex'>
+         <div className='w-1/2 bg-rose-300 h-48'></div>
+         <div className='w-1/2 bg-lime-300 h-48'></div> 
+        </div>
         <h1>{bannerinfo.bannerheading}</h1>
       </Container>
       

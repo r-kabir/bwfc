@@ -26,4 +26,4 @@ const Sponsor = () => {
   )
 }
 
-export default Sponsor
+export default Sponsor;
