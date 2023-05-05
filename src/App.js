@@ -1,8 +1,18 @@
 
+import Navbar from "./components/Navbar";
+import Banner from "./components/Banner";
+import Sponsor from "./components/Sponsor";
+import Feature from "./components/Feature";
+
 
 function App() {
   return (
-    <h1 className="text-3xl bg-orange-600">BWFC Dependency Setup Branch</h1>
+    <>
+      <Navbar />
+      <Banner />
+      <Sponsor />
+      <Feature />
+    </>
   );
 }
 export default App;
